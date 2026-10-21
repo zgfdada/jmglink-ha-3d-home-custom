@@ -47,7 +47,7 @@ Supervisor 会按主机架构选择镜像，自动连接当前 HA，无需填写
 镜像地址：
 
 ```text
-gitea.700117.xyz:16666/zgf/jmglink-ha-3d-home-custom:0.1.5-custom.24
+gitea.700117.xyz:16666/zgf/jmglink-ha-3d-home-custom:latest
 ```
 
 使用仓库提供的 [docker-compose.release.yml](docker-compose.release.yml)，将文件保存到自己的部署目录后执行：
@@ -99,14 +99,14 @@ docker compose -f docker-compose.release.yml up -d
 
 ### Docker
 
-在 Compose 中将镜像标签改为目标版本，再执行：
+Compose 默认使用 `latest`，升级时直接执行：
 
 ```shell
 docker compose -f docker-compose.release.yml pull
 docker compose -f docker-compose.release.yml up -d
 ```
 
-回滚时恢复此前的镜像标签及兼容的数据备份，仍使用同样的拉取和启动命令。保留挂载目录；不要删除数据卷或运行目录。
+当前公开镜像仅保留 `latest` 和当前版本。升级前如需保留回滚能力，请自行保存原镜像与兼容数据备份。保留挂载目录；不要删除数据卷或运行目录。
 
 ## 常见问题
 
