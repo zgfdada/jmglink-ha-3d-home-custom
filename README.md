@@ -10,7 +10,7 @@
 
 支持全屋状态查看、设备控制、户型编辑、自定义模型与面板，以及 HA / Hermes 语音助手。可作为 Home Assistant App 安装，也可直接拉取 Docker 镜像独立运行。
 
-**当前版本：`0.1.5-custom.38`** · 支持 `linux/amd64`、`linux/arm64`
+**当前版本：`0.1.5-custom.39`** · 支持 `linux/amd64`、`linux/arm64`
 
 [版本下载与更新日志](https://github.com/zgfdada/jmglink-ha-3d-home-custom/releases) · [完整 Wiki](https://github.com/zgfdada/jmglink-ha-3d-home-custom/blob/main/docs/wiki/Home.md) · [RELEASE_NOTES](RELEASE_NOTES.md)
 
@@ -56,7 +56,7 @@ Supervisor 会按主机架构选择镜像，自动连接当前 HA，无需填写
 镜像地址：
 
 ```text
-gitea.700117.xyz:16666/zgf/jmglink-ha-3d-home-custom:latest
+ghcr.io/zgfdada/jmglink-ha-3d-home-custom:latest
 ```
 
 使用仓库提供的 [docker-compose.release.yml](docker-compose.release.yml)，将文件保存到自己的部署目录后执行：

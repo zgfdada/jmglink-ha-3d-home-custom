@@ -2,7 +2,7 @@
 
 这是 Home Assistant 的 3D 家居可视化应用，保留 Ingress、Supervisor API、项目管理和 3D 控制能力。
 
-当前稳定 Add-on 版本为 `0.1.5-custom.38`，具体变化请查看 [版本更新日志](RELEASE_NOTES.md)。
+当前稳定 Add-on 版本为 `0.1.5-custom.39`，具体变化请查看 [版本更新日志](RELEASE_NOTES.md)。
 
 ## 当前版本
 
@@ -28,7 +28,7 @@
 3. 添加以下仓库地址：
 
    ```text
-   https://gitea.700117.xyz:16666/zgf/jmglink-ha-3d-home-custom
+   https://github.com/zgfdada/jmglink-ha-3d-home-custom
    ```
 
 4. 刷新加载项商店并选择 **JMGLink HA 3D Home Custom**。
@@ -119,7 +119,7 @@ Add-on 模式使用 Supervisor 提供的 `SUPERVISOR_TOKEN` 连接当前 Home As
 
 ### 页面没有房间筛选
 
-确认当前打开的是 **JMGLink HA 3D Home Custom**，版本为 `0.1.5-custom.38`。升级后使用 `Ctrl+F5` 刷新前端资源。
+确认当前打开的是 **JMGLink HA 3D Home Custom**，版本为 `0.1.5-custom.39`。升级后使用 `Ctrl+F5` 刷新前端资源。
 
 ### 看不到实体或无法控制
 
@@ -127,5 +127,5 @@ Add-on 模式使用 Supervisor 提供的 `SUPERVISOR_TOKEN` 连接当前 Home As
 
 ## 来源
 
-- 增强版仓库：<https://gitea.700117.xyz:16666/zgf/jmglink-ha-3d-home-custom>
+- 增强版仓库：<https://github.com/zgfdada/jmglink-ha-3d-home-custom>
 - 原始项目：<https://gitee.com/tuotuo4ever/jmglink-ha-3d-home.git>
