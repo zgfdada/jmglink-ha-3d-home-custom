@@ -8,6 +8,10 @@
 
 [源码仓库](https://github.com/zgfdada/jmglink-ha-3d-home-source) · [安装仓库与版本](https://github.com/zgfdada/jmglink-ha-3d-home-custom)
 
+**[项目官网 / 在线体验 →](https://threedhome-showcase-zt.mutedfly8.chatgpt.site/)** · [特色功能](https://threedhome-showcase-zt.mutedfly8.chatgpt.site/features.html) · [安装与教程](https://threedhome-showcase-zt.mutedfly8.chatgpt.site/guide.html)
+
+在线体验提供真实户型的横屏与手机竖屏交互演示，使用虚拟设备状态，操作不会控制真实家庭设备。
+
 支持全屋状态查看、设备控制、户型编辑、自定义模型与面板，以及 HA / Hermes 语音助手。可作为 Home Assistant App 安装，也可直接拉取 Docker 镜像独立运行。
 
 **当前版本：`0.1.5-custom.39`** · 支持 `linux/amd64`、`linux/arm64`
