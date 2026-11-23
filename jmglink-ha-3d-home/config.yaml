@@ -1,5 +1,5 @@
 name: JMGLink HA 3D Home Custom
-version: 0.1.5-custom.47
+version: 0.1.5-custom.48-beta.1
 slug: jmglink_ha_3d_home_custom
 description: 由恢复源码构建，支持设备平台、本地模型库和可配置控制面板的 3D 户型图可视化与控制中心
 url: https://github.com/zgfdada/jmglink-ha-3d-home-custom
@@ -13,7 +13,7 @@ init: false
 ingress: true
 ingress_port: 8099
 ingress_stream: true
-panel_icon: mdi:floor-plan
+panel_icon: mdi:home-automation
 panel_title: 3D Home Custom
 panel_admin: false
 homeassistant_api: true
@@ -31,6 +31,7 @@ map:
   - type: share
     read_only: false
 options:
+  resource_center_url: ""
   mcp_enabled: false
   mcp_public_port: 8112
   log_level: info
@@ -39,6 +40,7 @@ options:
   nice_level: 10
   resource_log_interval_minutes: 5
 schema:
+  resource_center_url: str?
   mcp_enabled: bool
   mcp_public_port: port
   log_level: list(trace|debug|info|warning|error)
